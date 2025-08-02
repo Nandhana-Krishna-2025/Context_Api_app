@@ -1,22 +1,38 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# React Native Context API Demo App
 
-# Getting Started
+This is a React Native demo application built using the Context API to manage **Authentication** and **Theme** states globally. It demonstrates how to implement a mock login system using hardcoded credentials and provides a simple toggle for light/dark theme across the app.
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+---
 
-## Step 1: Start Metro
+## ✨ Features
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+- 🧠 **React Context API** for state management
+- 🔐 **Mock Authentication** with hardcoded login credentials
+- 🎨 **Theme Toggle** between Light and Dark modes
+- 📱 Built with React Native CLI (`@react-native-community/cli`)
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+---
 
-```sh
-# Using npm
-npm start
+## 📦 Tech Stack
 
-# OR using Yarn
-yarn start
-```
+- React Native
+- Context API
+- TypeScript 
+- React Navigation 
+
+
+---
+
+## 🚀 Getting Started
+
+> Make sure your environment is set up correctly: [React Native Environment Setup](https://reactnative.dev/docs/environment-setup) (Choose the **React Native CLI** tab).
+
+### Step 1: Install Dependencies
+
+```bash
+npm install
+# or
+yarn install
 
 ## Step 2: Build and run your app
 
@@ -24,41 +40,9 @@ With Metro running, open a new terminal window/pane from the root of your React 
 
 ### Android
 
-```sh
+sh
 # Using npm
 npm run android
 
 # OR using Yarn
 yarn android
-```
-
-### iOS
-
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
-
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
-
-```sh
-bundle install
-```
-
-Then, and every time you update your native dependencies, run:
-
-```sh
-bundle exec pod install
-```
-
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
-
-```sh
-# Using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
-
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
-
