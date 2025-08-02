@@ -4,16 +4,16 @@ This is a React Native demo application built using the Context API to manage **
 
 ---
 
-## ✨ Features
+## Features
 
-- 🧠 **React Context API** for state management
-- 🔐 **Mock Authentication** with hardcoded login credentials
-- 🎨 **Theme Toggle** between Light and Dark modes
-- 📱 Built with React Native CLI (`@react-native-community/cli`)
+- **React Context API** for state management
+- **Mock Authentication** with hardcoded login credentials
+- **Theme Toggle** between Light and Dark modes
+- Built with React Native CLI (`@react-native-community/cli`)
 
 ---
 
-## 📦 Tech Stack
+## Tech Stack
 
 - React Native
 - Context API
@@ -23,7 +23,7 @@ This is a React Native demo application built using the Context API to manage **
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 > Make sure your environment is set up correctly: [React Native Environment Setup](https://reactnative.dev/docs/environment-setup) (Choose the **React Native CLI** tab).
 
