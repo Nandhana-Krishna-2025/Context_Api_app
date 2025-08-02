@@ -27,13 +27,12 @@ This is a React Native demo application built using the Context API to manage **
 
 > Make sure your environment is set up correctly: [React Native Environment Setup](https://reactnative.dev/docs/environment-setup) (Choose the **React Native CLI** tab).
 
-### Step 1: Install Dependencies
+### Steps
 
 ```bash
 npm install
 # or
 yarn install
-
 
 ### Step 2: Build and run your app
 
